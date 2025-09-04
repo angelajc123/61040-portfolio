@@ -13,7 +13,7 @@ Some fun facts about me:
 
 </div>
 
-<div style="margin-top: 65px;">
+<div style="margin-top: 50px;">
 
 ## Table of Contents
 [Link to Assignment 1](assignments/assignment1.md)
