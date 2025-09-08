@@ -116,7 +116,7 @@ Shoppers experience frustration, wasted time, and possible financial loss from b
 9. [Fit Predictor](https://www.secretsaucepartners.com/fitpredictor): Uses survey and historical purchasing data to create a user profile and predict the best fit. Relies on behvioral data rather than body measurements, and cannot predict novel/niche items.
 10. [Aimirr](https://aimirr.com/): Combines body scanning and virtual try-on with size recommendation, claiming 99% accuracy with generated 3D models. Requires advanced hardware and is expensive, not widely adoptable.
 
-## Solutions
+## Features
 ### Meaningful Discussion Around Music
 1. **Interactive song/album review**: you can review a song/album and other people can reply to your review with their thoughts. This facilitates different interpretations of the songs and meaningful connection.
 2. **Artist pages**: these pages will contain all of an artists discography and information about the artists. You can follow the artist and get notified when there are new releases. For the artist, this keeps the listeners engaged and informed. For the listeners, this encourages following extended bodies of work rather then one stream, which is more meaningful.
