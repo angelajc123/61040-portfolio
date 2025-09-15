@@ -122,7 +122,7 @@ actions
 concept BillableHoursTracking
 
 purpose
-    tracks the number of hours worked on projects for a client
+    automate record keeping for billable hours
 
 principle
     a company registers a client and their projects, employees log sessions on projects, and the system tracks the number of hours worked on for a client.
@@ -164,15 +164,38 @@ actions
         requires client exists
         effects returns all sessions associated with a client
 ```````
-### URL Shortener
+### Conference Room Booking
 ```````
-concept URLShortener
+concept ConferenceRoomBooking
 
 purpose
+    prevent double booking rooms
 
 principle
+    a company/university makes slots available for different rooms at various times. Employees/students can reserve a slot and are assured that they can meet in that room at that time.
 
 state
+    a set of Slots with
+        a Room
+        a Time
+    
+    a set of Bookings with
+        a User
+        a Slot
 
 actions
+    createSlot(r: Room, t: Time)
+        effect creates a new slot associated with time t in room
+
+    deleteSlot(s: Slot)
+        requires no bookings for this slot
+        effects remove s from set of slots
+
+    reserve(u: User, t: Time, r: Room): Booking
+        requires an unreserved slot for r at time t
+        effects add a new booking for slot with user
+
+    cancel(b: Booking)
+        requires booking exists
+        effects remove b from bookings
 ```````
