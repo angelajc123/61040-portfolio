@@ -1,6 +1,6 @@
 # Assignment 3
 ## Concept Questions
-1. The contexts are for different domains. Strings must be unique within a context, but between contextx can be the same. The context is the shortURLBase in the URL shortening app.
+1. The contexts are for different domains. Strings must be unique within a context, but between context can be the same. The context is the shortURLBase in the URL shortening app.
 2. NonceGeneration must store the set of used strings because each generated string must be unique within a context. There must be a one to one mapping of integers to string within a context in the counter case, either you can create a function that takes in a number and returns the corresponding string, or you can use the count itself as the string.
 3. One advantage of this is that the shortened URLs are easier to remember. One disadvantage is that there may need to be longer shortened URLS in order to avoid collisions. To modify NonceGeneration, add a set of common dictionary words to the state, and in generate, return a nonce that is not already used by this context that is a combination of the words in the common dictionary.
 
