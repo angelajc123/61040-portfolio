@@ -1,4 +1,4 @@
-# Assignment 2
+# Problem Set 1
 ## Exercise 1: Reading a concept
 1. One invariant is that the total number of purchases for an item is never greater than the number of requests. The other variant is that every purchase must be linked to a request in the registry. The latter is more important because this means we bought the giftee something they did not want, which defeats the point of the concept.
 2. One way someone might purchase an item that does not have a request is if the giftee removes the item after the gifter has purchased it. To fix this, we can require that the item in removeItem has not been purchased by anyone before removing the item.

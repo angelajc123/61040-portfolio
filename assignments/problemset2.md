@@ -1,4 +1,4 @@
-# Assignment 3
+# Problem Set 2
 ## Concept Questions
 1. The contexts are for different domains. Strings must be unique within a context, but between context can be the same. The context is the shortURLBase in the URL shortening app.
 2. NonceGeneration must store the set of used strings because each generated string must be unique within a context. There must be a one to one mapping of integers to string within a context in the counter case, either you can create a function that takes in a number and returns the corresponding string, or you can use the count itself as the string.
